@@ -1,2 +1,3 @@
-# EVUD
-Egocentric Video Understanding Dataset (EVUD)
+# Egocentric Video Understanding Dataset (EVUD)
+
+Code coming soon!
