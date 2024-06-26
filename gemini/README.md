@@ -51,7 +51,7 @@ python ./prepare_ego4d_vqa_gemini_dataset.py \
   --ego4d_path [path to ego4d.json] \                           # Default: ../data/ego4d.json
   --ego4d_nlq_path [path to nlq_train.json] \                   # Default: ../data/nlq_train.json
   --gemini_data_path [path to Gemini responses JSON file] \     # Outputted from previous script. Default: gemini_responses.json
-  --output_path [path to output JSON file]                      # Default: ego4d_nlq_train.gemini_pro_1.5.json
+  --output_path [path to output JSON file]                      # Default: ../output/ft_json/gemini.json
 ```
 
 #### Note

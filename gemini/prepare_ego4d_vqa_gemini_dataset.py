@@ -3,6 +3,7 @@ import random
 import json
 import copy
 import argparse
+import os
 
 random.seed(42)
 
@@ -193,8 +194,8 @@ parser.add_argument(
 parser.add_argument(
     "--output_path",
     type=str,
-    default="ego4d_nlq_train.gemini_pro_1.5.json",
-    help="Output path for processed data. Default: ego4d_nlq_train.gemini_pro_1.5.json",
+    default="../output/ft_json/gemini.json",
+    help="Output path for processed data. Default: ../output/ft_json/gemini.json",
 )
 
 args = parser.parse_args()
@@ -224,6 +225,8 @@ durations = prepare_durations(train, missing_data, video_uid2video)
 dataset = process_data(processed_data, durations)
 
 # Dump to JSON file
+if not os.path.exists(OUTPUT_PATH):
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 with open(OUTPUT_PATH, "w") as f:
     json.dump(dataset, f, indent=2)
 
