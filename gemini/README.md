@@ -11,7 +11,7 @@ You'll find three scripts in this directory for creating egocentric video unders
 
 The following are required to run the above scripts:
 1. Ego4D access, request it [here](https://ego4d-data.org/docs/start-here/). The files ego4d.json and nlq_train.json are required locally, as are the AWS credentials for access to the videos.
-2. An [VertexAI](https://cloud.google.com/vertex-ai) API key for prompting Gemini.
+2. A [VertexAI](https://cloud.google.com/vertex-ai) API key for prompting Gemini.
 3. A [GCS bucket](https://cloud.google.com/storage) for storing output Ego4D NLQ clips used for prompting Gemini.
 
 ### How to run
