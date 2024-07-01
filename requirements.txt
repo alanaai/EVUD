@@ -1,0 +1,4 @@
+boto3==1.28.44
+moviepy==1.0.3
+tqdm==4.65.0
+vertexai==1.48.0
