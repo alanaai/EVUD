@@ -33,4 +33,4 @@ Together with our generated data released on HuggingFace, we are also releasing 
 - [VSR](vsr/README.md)
 - [HM3D](hm3d/README.md)
 
-The generated data follows the format [LLaVa JSON format](https://github.com/haotian-liu/LLaVA/blob/main/docs/Finetune_Custom_Data.md).
+The generated data follows the [LLaVa JSON format](https://github.com/haotian-liu/LLaVA/blob/main/docs/Finetune_Custom_Data.md).
